@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.playtolife.uniremingtonmanizales.uniremingtonview">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="202dp"
+        android:layout_height="236dp"
+        app:srcCompat="@drawable/banner3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"/>
+
+    <RadioGroup
+        android:id="@+id/uniremingtongroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.944">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Misión - Visión"
+            tools:layout_editor_absoluteX="92dp"
+            tools:layout_editor_absoluteY="82dp"
+            tools:text="Misión Vision" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Valores institucionales"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="227dp"
+            tools:text="Valores Institucionales" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Lineamientos academicos"
+            tools:layout_editor_absoluteX="92dp"
+            tools:layout_editor_absoluteY="279dp"
+            tools:text="Lineamientos académicos" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Calendario academico"
+            tools:layout_editor_absoluteX="92dp"
+            tools:layout_editor_absoluteY="402dp"
+            tools:text="Calenedario académico" />
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Reglamento estudiantil"
+            tools:layout_editor_absoluteX="92dp"
+            tools:layout_editor_absoluteY="321dp"
+            tools:text="Reglamento estudiantil" />
+
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Directorio administrativo"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="136dp"
+            tools:text="Directorio administrativo" />
+
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="¿ Dónde estamos ?"
+            tools:layout_editor_absoluteX="54dp"
+            tools:layout_editor_absoluteY="16dp"
+            tools:text="¿ Dónde estamos?¡ " />
+
+    </RadioGroup>
+
+
+</android.support.constraint.ConstraintLayout>
